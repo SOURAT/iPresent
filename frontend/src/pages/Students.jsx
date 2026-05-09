@@ -35,7 +35,6 @@ export default function Students() {
           <thead className="bg-black text-white">
             <tr>
               <th className="text-left p-3 uppercase text-xs">Name</th>
-              <th className="text-left p-3 uppercase text-xs">Department</th>
               <th className="text-left p-3 uppercase text-xs">Student ID</th>
               <th className="text-left p-3 uppercase text-xs">Email</th>
               <th className="text-left p-3 uppercase text-xs">Year</th>
@@ -46,7 +45,6 @@ export default function Students() {
             {filtered.map((s) => (
               <tr key={s.id} className="border-b-2 border-black last:border-b-0 hover:bg-gray-50">
                 <td className="p-3 font-bold">{s.name.replace(/_/g, " ")}</td>
-                <td className="p-3">{s.department}</td>
                 <td className="p-3 font-mono">{s.student_id}</td>
                 <td className="p-3 text-sm">{s.email || "—"}</td>
                 <td className="p-3">{s.year || "—"}</td>
