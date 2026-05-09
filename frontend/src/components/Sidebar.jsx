@@ -15,8 +15,11 @@ export default function Sidebar() {
   return (
     <aside className="w-72 bg-white border-r-2 border-black p-6 flex flex-col">
       <div className="mb-10">
-        <div className="text-2xl font-black uppercase tracking-tight">SMART</div>
-        <div className="text-2xl font-black uppercase bg-yellow-400 inline-block px-1">ATTEND</div>
+       <div className="text-2xl font-black tracking-tighter">
+          <span className="bg-amber-300 px-1.5 py-0.5 rounded-sm">
+             <span className="font-light bold">i</span>Present
+          </span>
+       </div>
       </div>
       <nav className="flex-1 space-y-2">
         {items.map(({ to, label, icon: Icon }) => (
