@@ -26,7 +26,7 @@ export default function Login() {
       {/* Left Panel */}
       <div className="hidden md:flex flex-col justify-between bg-black text-white p-12 border-r-4 border-black">
         <div>
-          <h1 className="text-5xl font-black uppercase tracking-tight">
+          <h1 className="text-5xl font-black tracking-tight">
             i<span className="text-yellow-400">Present</span>
           </h1>
           <p className="mt-2 text-zinc-400 text-sm uppercase tracking-widest">
