@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import api from "@/lib/api";
-import EnrollmentModal from "@/components/EnrollmentModal";
+import api from "../../lib/api";
+import EnrollmentModal from "../components/EnrollmentModal";
 
 export default function LiveAttendance() {
   const videoRef = useRef();

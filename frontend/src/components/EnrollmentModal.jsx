@@ -1,5 +1,5 @@
 import { useState } from "react";
-import api from "@/lib/api";
+import api from "../lib/api";
 
 export default function EnrollmentModal({ snapshot, onClose }) {
   const [form, setForm] = useState({
