@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AuthProvider } from "@/context/AuthContext";
-import ProtectedRoute from "@/components/ProtectedRoute";
-import Sidebar from "@/components/Sidebar";
-import Login from "@/pages/Login";
-import Dashboard from "@/pages/Dashboard";
-import LiveAttendance from "@/pages/LiveAttendance";
-import Students from "@/pages/Students";
-import PendingApprovals from "@/pages/PendingApprovals";
-import History from "@/pages/History";
-import "@/App.css";
+import { AuthProvider } from "./context/AuthContext";
+import ProtectedRoute from "./components/ProtectedRoute";
+import Sidebar from "./components/Sidebar";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import LiveAttendance from "./pages/LiveAttendance";
+import Students from "./pages/Students";
+import PendingApprovals from "./pages/PendingApprovals";
+import History from "./pages/History";
+import "./App.css";
 
 const Shell = ({ children }) => (
   <div className="flex min-h-screen bg-[#F4F4F0]">
