@@ -92,7 +92,7 @@ JWT_SECRET=your-random-64-char-secret
 JWT_ALGORITHM=HS256
 ADMIN_EMAIL=admin@demo.com
 ADMIN_PASSWORD=Admin@123
-FACE_MATCH_THRESHOLD=60
+FACE_MATCH_THRESHOLD=50
 ```
 
 Seed the database:
